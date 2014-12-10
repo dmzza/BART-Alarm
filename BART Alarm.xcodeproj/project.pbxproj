@@ -15,6 +15,9 @@
 		AABDE2241A38A9A900487AFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABDE2231A38A9A900487AFD /* Images.xcassets */; };
 		AABDE2271A38A9A900487AFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABDE2251A38A9A900487AFD /* LaunchScreen.xib */; };
 		AABDE2331A38A9A900487AFD /* BART_AlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE2321A38A9A900487AFD /* BART_AlarmTests.swift */; };
+		AABDE2411A38B84700487AFD /* OriginTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE2401A38B84700487AFD /* OriginTableViewController.swift */; };
+		AABDE2431A38B91800487AFD /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE2421A38B91800487AFD /* Station.swift */; };
+		AABDE2451A38B9C200487AFD /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE2441A38B9C200487AFD /* Line.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		AABDE22C1A38A9A900487AFD /* BART AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BART AlarmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABDE2311A38A9A900487AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AABDE2321A38A9A900487AFD /* BART_AlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BART_AlarmTests.swift; sourceTree = "<group>"; };
+		AABDE2401A38B84700487AFD /* OriginTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OriginTableViewController.swift; sourceTree = "<group>"; };
+		AABDE2421A38B91800487AFD /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		AABDE2441A38B9C200487AFD /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,9 @@
 				AABDE2251A38A9A900487AFD /* LaunchScreen.xib */,
 				AABDE2191A38A9A900487AFD /* BART_Alarm.xcdatamodeld */,
 				AABDE2151A38A9A900487AFD /* Supporting Files */,
+				AABDE2401A38B84700487AFD /* OriginTableViewController.swift */,
+				AABDE2421A38B91800487AFD /* Station.swift */,
+				AABDE2441A38B9C200487AFD /* Line.swift */,
 			);
 			path = "BART Alarm";
 			sourceTree = "<group>";
@@ -222,6 +231,9 @@
 				AABDE2181A38A9A900487AFD /* AppDelegate.swift in Sources */,
 				AABDE21D1A38A9A900487AFD /* MasterViewController.swift in Sources */,
 				AABDE21F1A38A9A900487AFD /* DetailViewController.swift in Sources */,
+				AABDE2431A38B91800487AFD /* Station.swift in Sources */,
+				AABDE2451A38B9C200487AFD /* Line.swift in Sources */,
+				AABDE2411A38B84700487AFD /* OriginTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
