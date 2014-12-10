@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AABDE2181A38A9A900487AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE2171A38A9A900487AFD /* AppDelegate.swift */; };
+		AABDE21B1A38A9A900487AFD /* BART_Alarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AABDE2191A38A9A900487AFD /* BART_Alarm.xcdatamodeld */; };
+		AABDE21D1A38A9A900487AFD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE21C1A38A9A900487AFD /* MasterViewController.swift */; };
+		AABDE21F1A38A9A900487AFD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE21E1A38A9A900487AFD /* DetailViewController.swift */; };
+		AABDE2221A38A9A900487AFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AABDE2201A38A9A900487AFD /* Main.storyboard */; };
+		AABDE2241A38A9A900487AFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AABDE2231A38A9A900487AFD /* Images.xcassets */; };
+		AABDE2271A38A9A900487AFD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AABDE2251A38A9A900487AFD /* LaunchScreen.xib */; };
+		AABDE2331A38A9A900487AFD /* BART_AlarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE2321A38A9A900487AFD /* BART_AlarmTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AABDE22D1A38A9A900487AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AABDE20A1A38A9A900487AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AABDE2111A38A9A900487AFD;
+			remoteInfo = "BART Alarm";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AABDE2121A38A9A900487AFD /* BART Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BART Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABDE2161A38A9A900487AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABDE2171A38A9A900487AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AABDE21A1A38A9A900487AFD /* BART_Alarm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BART_Alarm.xcdatamodel; sourceTree = "<group>"; };
+		AABDE21C1A38A9A900487AFD /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		AABDE21E1A38A9A900487AFD /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AABDE2211A38A9A900487AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AABDE2231A38A9A900487AFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AABDE2261A38A9A900487AFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AABDE22C1A38A9A900487AFD /* BART AlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BART AlarmTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABDE2311A38A9A900487AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AABDE2321A38A9A900487AFD /* BART_AlarmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BART_AlarmTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AABDE20F1A38A9A900487AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABDE2291A38A9A900487AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABDE2091A38A9A900487AFD = {
+			isa = PBXGroup;
+			children = (
+				AABDE2141A38A9A900487AFD /* BART Alarm */,
+				AABDE22F1A38A9A900487AFD /* BART AlarmTests */,
+				AABDE2131A38A9A900487AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AABDE2131A38A9A900487AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AABDE2121A38A9A900487AFD /* BART Alarm.app */,
+				AABDE22C1A38A9A900487AFD /* BART AlarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AABDE2141A38A9A900487AFD /* BART Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				AABDE2171A38A9A900487AFD /* AppDelegate.swift */,
+				AABDE21C1A38A9A900487AFD /* MasterViewController.swift */,
+				AABDE21E1A38A9A900487AFD /* DetailViewController.swift */,
+				AABDE2201A38A9A900487AFD /* Main.storyboard */,
+				AABDE2231A38A9A900487AFD /* Images.xcassets */,
+				AABDE2251A38A9A900487AFD /* LaunchScreen.xib */,
+				AABDE2191A38A9A900487AFD /* BART_Alarm.xcdatamodeld */,
+				AABDE2151A38A9A900487AFD /* Supporting Files */,
+			);
+			path = "BART Alarm";
+			sourceTree = "<group>";
+		};
+		AABDE2151A38A9A900487AFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABDE2161A38A9A900487AFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AABDE22F1A38A9A900487AFD /* BART AlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				AABDE2321A38A9A900487AFD /* BART_AlarmTests.swift */,
+				AABDE2301A38A9A900487AFD /* Supporting Files */,
+			);
+			path = "BART AlarmTests";
+			sourceTree = "<group>";
+		};
+		AABDE2301A38A9A900487AFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABDE2311A38A9A900487AFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AABDE2111A38A9A900487AFD /* BART Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABDE2361A38A9A900487AFD /* Build configuration list for PBXNativeTarget "BART Alarm" */;
+			buildPhases = (
+				AABDE20E1A38A9A900487AFD /* Sources */,
+				AABDE20F1A38A9A900487AFD /* Frameworks */,
+				AABDE2101A38A9A900487AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BART Alarm";
+			productName = "BART Alarm";
+			productReference = AABDE2121A38A9A900487AFD /* BART Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AABDE22B1A38A9A900487AFD /* BART AlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AABDE2391A38A9A900487AFD /* Build configuration list for PBXNativeTarget "BART AlarmTests" */;
+			buildPhases = (
+				AABDE2281A38A9A900487AFD /* Sources */,
+				AABDE2291A38A9A900487AFD /* Frameworks */,
+				AABDE22A1A38A9A900487AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AABDE22E1A38A9A900487AFD /* PBXTargetDependency */,
+			);
+			name = "BART AlarmTests";
+			productName = "BART AlarmTests";
+			productReference = AABDE22C1A38A9A900487AFD /* BART AlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AABDE20A1A38A9A900487AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Peaking;
+				TargetAttributes = {
+					AABDE2111A38A9A900487AFD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AABDE22B1A38A9A900487AFD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AABDE2111A38A9A900487AFD;
+					};
+				};
+			};
+			buildConfigurationList = AABDE20D1A38A9A900487AFD /* Build configuration list for PBXProject "BART Alarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AABDE2091A38A9A900487AFD;
+			productRefGroup = AABDE2131A38A9A900487AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AABDE2111A38A9A900487AFD /* BART Alarm */,
+				AABDE22B1A38A9A900487AFD /* BART AlarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AABDE2101A38A9A900487AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABDE2221A38A9A900487AFD /* Main.storyboard in Resources */,
+				AABDE2271A38A9A900487AFD /* LaunchScreen.xib in Resources */,
+				AABDE2241A38A9A900487AFD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABDE22A1A38A9A900487AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AABDE20E1A38A9A900487AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABDE21B1A38A9A900487AFD /* BART_Alarm.xcdatamodeld in Sources */,
+				AABDE2181A38A9A900487AFD /* AppDelegate.swift in Sources */,
+				AABDE21D1A38A9A900487AFD /* MasterViewController.swift in Sources */,
+				AABDE21F1A38A9A900487AFD /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AABDE2281A38A9A900487AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABDE2331A38A9A900487AFD /* BART_AlarmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AABDE22E1A38A9A900487AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AABDE2111A38A9A900487AFD /* BART Alarm */;
+			targetProxy = AABDE22D1A38A9A900487AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AABDE2201A38A9A900487AFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABDE2211A38A9A900487AFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AABDE2251A38A9A900487AFD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AABDE2261A38A9A900487AFD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AABDE2341A38A9A900487AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AABDE2351A38A9A900487AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AABDE2371A38A9A900487AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BART Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AABDE2381A38A9A900487AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BART Alarm/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AABDE23A1A38A9A900487AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BART AlarmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BART Alarm.app/BART Alarm";
+			};
+			name = Debug;
+		};
+		AABDE23B1A38A9A900487AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BART AlarmTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BART Alarm.app/BART Alarm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AABDE20D1A38A9A900487AFD /* Build configuration list for PBXProject "BART Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABDE2341A38A9A900487AFD /* Debug */,
+				AABDE2351A38A9A900487AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AABDE2361A38A9A900487AFD /* Build configuration list for PBXNativeTarget "BART Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABDE2371A38A9A900487AFD /* Debug */,
+				AABDE2381A38A9A900487AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AABDE2391A38A9A900487AFD /* Build configuration list for PBXNativeTarget "BART AlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AABDE23A1A38A9A900487AFD /* Debug */,
+				AABDE23B1A38A9A900487AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AABDE2191A38A9A900487AFD /* BART_Alarm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AABDE21A1A38A9A900487AFD /* BART_Alarm.xcdatamodel */,
+			);
+			currentVersion = AABDE21A1A38A9A900487AFD /* BART_Alarm.xcdatamodel */;
+			path = BART_Alarm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AABDE20A1A38A9A900487AFD /* Project object */;
+}
