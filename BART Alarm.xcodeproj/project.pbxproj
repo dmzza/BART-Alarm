@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAA9A6231A3EFB040007FB8F /* Face.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9A6221A3EFB040007FB8F /* Face.swift */; };
+		AAA9A6251A3F02090007FB8F /* IntervalMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9A6241A3F02090007FB8F /* IntervalMarker.swift */; };
+		AAA9A6271A3F0CE60007FB8F /* ChronographViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA9A6261A3F0CE60007FB8F /* ChronographViewController.swift */; };
 		AABDE2181A38A9A900487AFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE2171A38A9A900487AFD /* AppDelegate.swift */; };
 		AABDE21B1A38A9A900487AFD /* BART_Alarm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AABDE2191A38A9A900487AFD /* BART_Alarm.xcdatamodeld */; };
 		AABDE21D1A38A9A900487AFD /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AABDE21C1A38A9A900487AFD /* MasterViewController.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AAA9A6221A3EFB040007FB8F /* Face.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Face.swift; sourceTree = "<group>"; };
+		AAA9A6241A3F02090007FB8F /* IntervalMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntervalMarker.swift; sourceTree = "<group>"; };
+		AAA9A6261A3F0CE60007FB8F /* ChronographViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChronographViewController.swift; sourceTree = "<group>"; };
 		AABDE2121A38A9A900487AFD /* BART Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BART Alarm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABDE2161A38A9A900487AFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AABDE2171A38A9A900487AFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +104,9 @@
 				AABDE2401A38B84700487AFD /* OriginTableViewController.swift */,
 				AABDE2421A38B91800487AFD /* Station.swift */,
 				AABDE2441A38B9C200487AFD /* Line.swift */,
+				AAA9A6221A3EFB040007FB8F /* Face.swift */,
+				AAA9A6241A3F02090007FB8F /* IntervalMarker.swift */,
+				AAA9A6261A3F0CE60007FB8F /* ChronographViewController.swift */,
 			);
 			path = "BART Alarm";
 			sourceTree = "<group>";
@@ -231,6 +240,9 @@
 				AABDE2181A38A9A900487AFD /* AppDelegate.swift in Sources */,
 				AABDE21D1A38A9A900487AFD /* MasterViewController.swift in Sources */,
 				AABDE21F1A38A9A900487AFD /* DetailViewController.swift in Sources */,
+				AAA9A6231A3EFB040007FB8F /* Face.swift in Sources */,
+				AAA9A6251A3F02090007FB8F /* IntervalMarker.swift in Sources */,
+				AAA9A6271A3F0CE60007FB8F /* ChronographViewController.swift in Sources */,
 				AABDE2431A38B91800487AFD /* Station.swift in Sources */,
 				AABDE2451A38B9C200487AFD /* Line.swift in Sources */,
 				AABDE2411A38B84700487AFD /* OriginTableViewController.swift in Sources */,
@@ -425,6 +437,7 @@
 				AABDE2381A38A9A900487AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AABDE2391A38A9A900487AFD /* Build configuration list for PBXNativeTarget "BART AlarmTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +446,7 @@
 				AABDE23B1A38A9A900487AFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

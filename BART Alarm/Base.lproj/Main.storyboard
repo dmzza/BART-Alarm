@@ -76,11 +76,14 @@
                             <textInputTraits key="textInputTraits"/>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="lGD-eT-4dP">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="stationCell" id="lGD-eT-4dP">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lGD-eT-4dP" id="HwJ-wA-qaX">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="UNa-7u-U0D" kind="showDetail" id="HZZ-ew-vd7"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -132,6 +135,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrm-kH-fPn" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1343" y="64"/>
+        </scene>
+        <!--Chronograph View Controller-->
+        <scene sceneID="gnm-vP-bdq">
+            <objects>
+                <viewController id="UNa-7u-U0D" customClass="ChronographViewController" customModule="BART_Alarm" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BmU-2u-f0e"/>
+                        <viewControllerLayoutGuide type="bottom" id="c0h-h9-obD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ISY-zQ-8lz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W6K-ma-iYb" customClass="Face" customModule="BART_Alarm" customModuleProvider="target">
+                                <rect key="frame" x="186" y="185" width="229" height="229"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="watchFace" destination="W6K-ma-iYb" id="txI-wP-qcu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UVf-Az-msX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1343" y="727"/>
         </scene>
     </scenes>
 </document>

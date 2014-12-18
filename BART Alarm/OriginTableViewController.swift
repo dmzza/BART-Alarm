@@ -39,18 +39,18 @@ class OriginTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete method implementation.
         // Return the number of rows in the section.
-        return 0
+        return 1
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("stationCell", forIndexPath: indexPath) as UITableViewCell
 
-        // Configure the cell...
+        cell.textLabel?.text = "24th St"
 
         return cell
     }
-    */
+
 
     /*
     // Override to support conditional editing of the table view.
