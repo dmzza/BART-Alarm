@@ -12,7 +12,8 @@ class Face: UIView, IntervalMarkerDelegate {
     
     var radius: Double
     var markers: [IntervalMarker]?
-    var interval: Double? = 1/180
+    var interval: Double? = 1/240
+    var nextMarker: Int? = 1
 //    var superIntervals: NSDictionary? = nil
     
     init(radius: Double, originPoint: CGPoint) {
@@ -32,8 +33,7 @@ class Face: UIView, IntervalMarkerDelegate {
     func viewDidInit() {
         let numberOfIntervals: Int = Int(1/self.interval!)
         self.markers = Array()
-        self.backgroundColor = UIColor.redColor()
-        for index in 0...numberOfIntervals {
+        for index in 0...(numberOfIntervals - 1) {
             let angleInRadians = Double(index) * self.interval! * M_PI * 2
             var marker = IntervalMarker(thickness: 0.7, length: 18, angularPosition: angleInRadians, color: UIColor.grayColor())
             marker.face = self
@@ -41,6 +41,19 @@ class Face: UIView, IntervalMarkerDelegate {
             self.addSubview(marker)
             self.markers!.append(marker)
         }
+        
+        NSTimer.scheduledTimerWithTimeInterval(1.0 * self.interval!, target: self, selector: "highlightMarker:", userInfo: nil, repeats: true)
+    }
+    
+    func highlightMarker(index: Int) {
+        var marker = self.markers![self.nextMarker!++ % Int(1/self.interval!)]
+        
+        marker.backgroundColor = UIColor.redColor()
+        
+        UIView.animateWithDuration(1.0, animations: { () -> Void in
+            marker.backgroundColor = UIColor.grayColor()
+        }, completion: nil)
+        
     }
 
     /*
